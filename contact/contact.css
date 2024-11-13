@@ -1,0 +1,114 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #97f7ee;
+}
+
+/* navbar */
+.main-navabar{
+    background-color: #087BB4;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem 3rem 2rem;
+    margin-left: 0;
+    margin-top: 0;
+    position: relative;
+}
+
+
+.name-icon{
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 11px;
+}
+
+.navbar-items{
+    display: flex;
+}
+
+.ul-navbar{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+.li-navbar{
+    text-transform: uppercase;
+}
+
+.li-navbar a{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FFFFFF;
+}
+
+a:hover{
+    color: #000000;
+    text-decoration: underline;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: #5343a3;
+}
+
+h5{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: #5343a3;
+}
+
+.container{
+    display: flex;
+    gap: 5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.whatsapp{
+    border: 1px solid;
+    background-color: #d7fab9;
+}
+.whatsapp h3{
+    text-align: center;
+}
+.instagram{
+    border: 1px solid;
+    background-color: #fcacac;
+}
+.instagram h3{
+    text-align: center;
+}
+.facebook{
+    border: 1px solid;
+    background-color: #a0baeb;
+}
+.facebook h3{
+    text-align: center;
+}
+.github{
+    border: 1px solid;
+    background-color: #c7cad1;
+}
+.github h3{
+    text-align: center;
+}
+
+/* footer */
+.main-footer {
+    background-color: #087BB4;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: bottom;
+    margin-top: 100px;
+    bottom: 0;
+    width: 100%;
+}
